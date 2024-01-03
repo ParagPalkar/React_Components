@@ -1,0 +1,68 @@
+.faq{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+
+}
+
+h2{
+    color: aliceblue;
+    text-align: center;
+}
+
+
+.container{
+    width: 40%;
+    background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    padding:10px ;
+}
+
+/*Question dsiplay*/
+
+h4{
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding-left: 10px;
+}
+
+.quest {
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    
+}
+
+.single-quest{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.show-info{
+    margin-top: 0px;
+    text-align: left;
+    padding: 5px 17px 5px 25px;
+}
+
+.show-info-closed{
+    margin-top: 0px;
+}
+.faq-button {
+    background: rgb(211, 216, 253);
+    color: rgb(10, 27, 184);
+    border: 2px solid rgb(10, 27, 184);
+    border-radius: 5px;
+    font-size: 20px;
+    height: 30px;
+    align-self: center;
+    cursor: pointer;
+    margin-right: 10px;
+}
