@@ -1,11 +1,11 @@
 
 import './App.css';
-import Shopping from './component/Shopping/Shopping';
+import SeacrhUser from './component/User Search/SeacrhUser';
 
 function App() {
   return (
     <div className="App">
-      <Shopping />
+      <SeacrhUser />
     </div>
   );
 }

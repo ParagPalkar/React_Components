@@ -9,16 +9,14 @@ const Shopping = () => {
     function onSubmit(event) {
         event.preventDefault();
         const form = event.target;
-        //console.log(form);
         const input = form.item;
-        //console.log(input);
         const newItems = [...items, input.value];
         setItems(newItems);
         console.log(newItems);
-        form.reset();    
-    } 
+        form.reset();
+    }
 
-    function onRemove(itemToRemove){
+    function onRemove(itemToRemove) {
         const filteredItems = items.filter((singleItem) => {
             return singleItem !== itemToRemove;
         });
@@ -52,11 +50,11 @@ const Shopping = () => {
     )
 }
 
-function Item({item, onRemove}) {
+function Item({ item, onRemove }) {
     return (
         <li>
             {item}
-            <button className="delete" onClick={()=> onRemove(item)} >x</button>
+            <button className="delete" onClick={() => onRemove(item)} >x</button>
         </li>
     )
 }
