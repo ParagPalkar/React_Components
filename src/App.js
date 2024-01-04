@@ -1,11 +1,11 @@
 
 import './App.css';
-import Qgen from './component/Qgen/Qgen';
+import Shopping from './component/Shopping/Shopping';
 
 function App() {
   return (
     <div className="App">
-      <Qgen />
+      <Shopping />
     </div>
   );
 }
